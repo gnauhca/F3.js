@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+body {
+    background: radial-gradient(circle, rgb(109, 39, 23), #0c0000);
+}
+canvas {
+    pointer-events: none;
+}
+.controls {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.btn-group {
+    display: inline-block;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 1.5;
+    padding: 4px 15px;
+    font-size: 12px;
+    border-radius: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all .3s cubic-bezier(.645,.045,.355,1);
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    position: relative;
+    color: rgba(0,0,0,.65);
+    background-color: #fff;
+    border-color: #d9d9d9;
+}
+.btn:first-child {
+    border-radius: 4px 0 0 4px;
+}
+.btn:last-child {
+    border-radius: 0 4px 4px 0;
+}
+.btn.active {
+    color: #fff;
+    background-color: #dc7953;
+    border-color: #dc7953;
+}
+
+.rotate .btn {
+    border: none;
+    border-radius: 20px;
+}

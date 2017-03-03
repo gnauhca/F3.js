@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>F3 Demo</title>
+</head>
+<body>
+	<div class="controls">
+		<div class="functions btn-group"></div>
+		<div class="rotate btn-group">
+			<div class="btn rotatex" data-rotate="x">rotatex</div>
+			<div class="btn rotatey" data-rotate="y">rotatey</div>
+			<div class="btn rotatez" data-rotate="z">rotatez</div>
+		</div>
+	</div>
+	<canvas width="2560" height="1000" style="min-width: 1000px; width: 100%; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%)"></canvas>
+<script src="../build/f3.js"></script>
+<script src="./dist/index.js"></script>
+<script>
+	bannerInit(document.querySelector('canvas'));
+</script>
+</body>
+</html>
