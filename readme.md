@@ -16,3 +16,5 @@ Fake 3D，实现在 canvas(Context2d) 上绘制 3D 场景。
 
 正在完善... 请参考 demo，
 或直接在我的 [codepen](http://codepen.io/gnauhca/pen/PpNVwM) 查看 
+
+![Demo picture](./demo.jpg)
