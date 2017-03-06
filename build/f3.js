@@ -164,7 +164,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            if (z > this.p) {
 	                scale = Infinity;
 	            } else {
-	                scale = (-z + 2 * this.p) / (-z + this.p) - 1;
+	                scale = this.p / (-z + this.p);
 	            }
 	            return scale;
 	        }
