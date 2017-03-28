@@ -8,6 +8,11 @@ class Renderer {
         this.beforeRender();
         scene.objs.forEach((o)=>{
             o.calc2DCrood(camera);
+        });
+        scene.objs.sort((o1, o2)=>{ 
+            return o1.worldPosition.z - o2.worldPosition.z;
+        });
+        scene.objs.forEach((o)=>{
             o._render(this.ctx, this.cvs);
         });
         this.afterRender();
