@@ -4,8 +4,6 @@ Fake 3D，实现在 canvas(Context2d) 上绘制 3D 场景。
 
 用三维坐标定义物体位置，在绘制的时候转换成对应的屏幕坐标实现简单的三维效果。
 
-思路文章：[http://gnauhca.com/blog/2017/03/13/canvas/canvas-getcontext(3d)/](http://gnauhca.com/blog/2017/03/13/canvas/canvas-getcontext(3d)/)
-
 
 ## 用法：
 
